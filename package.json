@@ -1,0 +1,44 @@
+{
+  "name": "webpacktemplate",
+  "version": "1.0.0",
+  "description": "webpack_personalConfig-vanillaJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js",
+    "watch": "webpack -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlaguilargomez/webpack_personalConfig-vanillaJS.git"
+  },
+  "keywords": [
+    "JLA"
+  ],
+  "author": "JLA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jlaguilargomez/webpack_personalConfig-vanillaJS.git/issues"
+  },
+  "homepage": "https://github.com/jlaguilargomez/webpack_personalConfig-vanillaJS.git#readme",
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
+    "autoprefixer": "^9.7.3",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.3.2",
+    "cssnano": "^4.1.10",
+    "file-loader": "^5.0.2",
+    "mini-css-extract-plugin": "^0.8.0",
+    "postcss-loader": "^3.0.0",
+    "sass": "^1.23.7",
+    "sass-loader": "^8.0.0",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.3",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
